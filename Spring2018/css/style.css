@@ -1,0 +1,373 @@
+@charset "UTF-8";
+
+*{
+border: 0;
+padding: 0;
+margin: 0;
+}
+
+html{
+  position: relative;
+  min-height:100%;
+  width: 100%;
+  display: block;
+  letter-spacing: 0.5px;
+  position: relative;
+}
+
+body
+{
+  background: white;
+  font-family: "Avenir Next" !important;
+  color: #212121
+}
+
+/* nav bar */
+nav
+{
+  text-align:center;
+
+}
+
+@media (max-width: 62em) {
+  .navbar-nav {
+    padding-top: .425rem;
+    padding-left: 0.75rem;
+  }
+}
+
+ul.nav{
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+ul.nav li{
+    display:inline;
+}
+ul.nav a{
+    display:inline-block;
+    padding:10px;
+    color: #666666;
+}
+
+ul.nav-link {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 450;
+  line-height: 1em;
+  letter-spacing: 1px;
+  color: #666666;
+
+}
+
+ul.navbar-nav > li > a {
+  padding: 10px;
+}
+
+ul.nav > li > a:focus, .nav > li > a:hover {
+  color: #FF7F50;
+}
+
+.nav li.active a {
+    color:#FF7F50;
+    /*font-weight:bold;*/
+}
+
+
+/* color for ahref and hovers */
+#col a {
+  color: #FF7F50;
+}
+
+#col a:hover {
+  color: #666666
+}
+
+/* overridding margin-top for container fluid */
+.container-fluid {
+  margin-top: 40px;
+}
+
+/* Social media buttons in footer.
+*/
+
+.socialbtns a, .socialbtns a:hover {
+  color: #FF7F50;
+	text-decoration: none;
+	padding: 8px;
+}
+
+
+.socialbtnsbtnsbtns, .socialbtnsbtnsbtns ul, .socialbtnsbtnsbtns li {
+	margin: 0;
+	padding: 5px;
+}
+
+.socialbtnsbtnsbtns li {
+    list-style: none outside none;
+    display: inline-block;
+}
+
+.socialbtns li {
+    list-style: none outside none;
+    display: inline-block;
+}
+
+.socialbtns .fa {
+	color: #FFF;
+	text-shadow: 1px 1px 0px #000,
+			1px -1px 0px #000,
+			-1px 1px 0px #000,
+			-1px -1px 0px #000;
+	-webkit-text-shadow: 1px 1px 0px #000,
+			1px -1px 0px #000,
+			-1px 1px 0px #000,
+			-1px -1px 0px #000;
+	-moz-text-shadow: 1px 1px 0px #000,
+			1px -1px 0px #000,
+			-1px 1px 0px #000,
+			-1px -1px 0px #000;
+	-o-text-shadow: 1px 1px 0px #000,
+			1px -1px 0px #000,
+			-1px 1px 0px #000,
+			-1px -1px 0px #000;
+	transition: all ease-out 0.5s;
+	-moz-transition: all ease-out 0.5s;
+	-webkit-transition: all ease-out 0.5s;
+	-o-transition: all ease-out 0.5s;
+}
+
+
+#linkedin:hover {
+	/*color: #0077B5;*/
+	text-shadow: 1px 1px 0px #fff,
+			1px -1px 0px #fff,
+			-1px 1px 0px #fff,
+			-1px -1px 0px #fff;
+	-webkit-text-shadow: 1px 1px 0px #fff,
+			1px -1px 0px #fff,
+			-1px 1px 0px #fff,
+			-1px -1px 0px #fff;
+	-moz-text-shadow: 1px 1px 0px #fff,
+			1px -1px 0px #fff,
+			-1px 1px 0px #fff,
+			-1px -1px 0px #fff;
+	-o-text-shadow: 1px 1px 0px #fff,
+			1px -1px 0px #fff,
+			-1px 1px 0px #fff,
+			-1px -1px 0px #fff;
+	transition: all ease 0.5s;
+	-moz-transition: all ease-in 0.5s;
+	-webkit-transition: all ease-in 0.5s;
+	-o-transition: all ease-in 0.5s;
+  font-size: 35px;
+}
+
+#github:hover{
+/*color: #6cc644;*/
+text-shadow: 1px 1px 0px #fff,
+    1px -1px 0px #fff,
+    -1px 1px 0px #fff,
+    -1px -1px 0px #fff;
+-webkit-text-shadow: 1px 1px 0px #fff,
+    1px -1px 0px #fff,
+    -1px 1px 0px #fff,
+    -1px -1px 0px #fff;
+-moz-text-shadow: 1px 1px 0px #fff,
+    1px -1px 0px #fff,
+    -1px 1px 0px #fff,
+    -1px -1px 0px #fff;
+-o-text-shadow: 1px 1px 0px #fff,
+    1px -1px 0px #fff,
+    -1px 1px 0px #fff,
+    -1px -1px 0px #fff;
+transition: all ease 0.5s;
+-moz-transition: all ease-in 0.5s;
+-webkit-transition: all ease-in 0.5s;
+-o-transition: all ease-in 0.5s;
+font-size: 35px;
+}
+
+#mail:hover{
+/*color: #FFF;*/
+text-shadow: 1px 1px 0px #ea4335,
+    1px -1px 0px #ea4335,
+    -1px 1px 0px #ea4335,
+    -1px -1px 0px #ea4335;
+-webkit-text-shadow: 1px 1px 0px #ea4335,
+    1px -1px 0px #ea4335,
+    -1px 1px 0px #ea4335,
+    -1px -1px 0px #ea4335;
+-moz-text-shadow: 1px 1px 0px #ea4335,
+    1px -1px 0px #ea4335,
+    -1px 1px 0px #ea4335,
+    -1px -1px 0px #ea4335;
+-o-text-shadow: 1px 1px 0px #ea4335,
+    1px -1px 0px #ea4335,
+    -1px 1px 0px #ea4335,
+    -1px -1px 0px #ea4335;
+transition: all ease 0.5s;
+-moz-transition: all ease-in 0.5s;
+-webkit-transition: all ease-in 0.5s;
+-o-transition: all ease-in 0.5s;
+font-size: 35px;
+}
+
+/* footer */
+footer {
+  font-family: "Avenir Next" !important;
+  position: absolute;
+  right:0;
+  bottom:0;
+  left:0;
+  padding: 1rem;
+  height: 30px;
+
+}
+
+#footer .copyright {
+  color: #aaaaaa;
+  font-size: 0.5em;
+  font-weight: 400;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+}
+
+#mastfoot-placeholder {
+  margin-top: 20px
+}
+
+
+/* Back to top button */
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #FF7F50; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+}
+
+#myBtn:hover {
+    background-color: #666666; /* Add a dark-grey background on hover */
+}
+
+/*images on photos page */
+.images img{
+   width:300px;
+   height:300px;
+
+/*Scale down will take the necessary specified space that is 100px x 100px without stretching the image*/
+    object-fit:scale-down;
+
+}
+
+
+#thumbs {
+    margin-left: 80px;
+    margin-right: 80px;
+     text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+}
+#thumbs a {
+    vertical-align: top;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+}
+.stretch {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
+}
+
+/* Style the Image Used to Trigger the Modal */
+.myImg {
+   /*border-radius: 5px;*/
+   cursor: pointer;
+   transition: 0.3s;
+}
+
+.myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+   display: none; /* Hidden by default */
+   position: fixed; /* Stay in place */
+   z-index: 1; /* Sit on top */
+   padding-top: 100px; /* Location of the box */
+   left: 0;
+   top: 0;
+   width: 100%; /* Full width */
+   height: 100%; /* Full height */
+   overflow: auto; /* Enable scroll if needed */
+   background-color: rgb(0,0,0); /* Fallback color */
+   background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+   margin: auto;
+   display: block;
+   /*height:auto;
+   width: auto;*/
+   width: 80%;
+   max-width: 700px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+.caption {
+   margin: auto;
+   display: block;
+   width: 80%;
+   max-width: 700px;
+   text-align: center;
+   color: #ccc;
+   padding: 10px 0;
+   height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, .caption {
+   animation-name: zoom;
+   animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+   from {transform:scale(0)}
+   to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+   position: absolute;
+   top: 15px;
+   right: 35px;
+   color: #f1f1f1;
+   font-size: 40px;
+   font-weight: bold;
+   transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+   color: #bbb;
+   text-decoration: none;
+   cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+   .modal-content {
+       width: 100%;
+   }
+}

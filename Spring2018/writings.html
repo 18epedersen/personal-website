@@ -1,0 +1,90 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Writings :: Emily Pedersen</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css'>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <link rel="icon" href = "images/icon.gif">
+  <script type="text/javascript">
+  window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      document.getElementById("myBtn").style.display = "block";
+  } else {
+      document.getElementById("myBtn").style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+</script>
+</head>
+<body>
+  <!-- <div id = 'nav-placeholder'>
+    </div>
+    <script>
+      $(function(){
+        $("#nav-placeholder").load("navigation.html");
+      });
+    </script> -->
+    <nav class = "navbar">
+    <a><img src="images/logo.png" /></a>
+    <div>
+      <ul class="nav">
+        <li>
+          <a href="home.html">ABOUT</a>
+        </li>
+        <li>
+          <a href="Emily Pedersen Resume.pdf" target="_blank">RESUME</a>
+        </li>
+        <li >
+          <a href="projects.html">COMPSCI PROJECTS</a>
+        </li>
+        <li >
+          <a href="ui.html">UI DESIGNS</a>
+        </li>
+        <li class="active">
+          <a href="writings.html">WRITINGS</a>
+        </li>
+      </ul>
+    </div>
+    </nav>
+<div class="container-fluid">
+  <div class="row example-basic">
+	<div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2" id = 'col'>
+    <h5> Self vs. Non-Self</h5>
+    <p> <i> Perception @ UC Berkeley, Spring 2017</i> :: <a href="self.pdf" target = "_blank">Paper</a></p>
+    <h5> Perception as an Inference Problem </h5>
+    <p> <i> Perception @ UC Berkeley, Spring 2017</i> :: <a href="perception.pdf" target = "_blank">Paper</a></p>
+    <h5> Vasovagal Syncope Syndrome on Perception</h5>
+    <p> <i> Perception @ UC Berkeley, Spring 2017</i> :: <a href="perception1.pdf" target = "_blank">Paper</a></p>
+    <h5> Theory of Mind Research Critique </h5>
+    <p> <i> Cognitive Neuroscience @ UC Berkeley, Fall 2016</i> :: <a href="neuro.pdf" target = "_blank">Paper</a></p>
+    <h5>News Articles</h5>
+    <p> <i> The Daily Californian Newspaper, Spring 2015</i> :: <a href="http://www.dailycal.org/author/epedersen/" target = "_blank">Articles</a></p>
+    <h5> Changing Family Dynamics during the Great Depression </h5>
+    <p> <i> The United States from Civil War to Present @ UC Berkeley, Spring 2015</i> :: <a href="history7b.pdf" target = "_blank">Paper</a></p>
+    <h5> Reconciliation of Two 'Truths': The Complex Issue of Comfort Women </h5>
+    <p> <i> History R1B: World War II in the Pacific Theater @ UC Berkeley, Fall 2014</i> :: <a href="comfortwomen.pdf" target = "_blank">Paper</a></p>
+    <h5>'War Without Mercy' Book Review</h5>
+    <p> <i> History R1B: World War II in the Pacific Theater @ UC Berkeley, Fall 2014</i> :: <a href="mercy.pdf" target = "_blank">Paper</a></p>
+</div>
+</div>
+<div id = 'mastfoot-placeholder'>
+</div>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Back to Top</button>
+<script>
+  $(function(){
+  $("#mastfoot-placeholder").load("footer.html");
+  });
+</script>
+</body>
+</html>

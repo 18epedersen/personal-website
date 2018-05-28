@@ -1,0 +1,92 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Compsci Projects :: Emily Pedersen</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css'>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <link rel="icon" href = "images/icon.gif"/>
+  <script type="text/javascript">
+  window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      document.getElementById("myBtn").style.display = "block";
+  } else {
+      document.getElementById("myBtn").style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+</script>
+
+</head>
+<body>
+  <!-- <div id = 'nav-placeholder'>
+    </div>
+    <script>
+      $(function(){
+        $("#nav-placeholder").load("navigation.html");
+      });
+    </script> -->
+    <nav class = "navbar">
+    <a><img src="images/logo.png" /></a>
+    <div>
+      <ul class="nav">
+        <li>
+          <a href="home.html">ABOUT</a>
+        </li>
+        <li>
+          <a href="Emily Pedersen Resume.pdf" target="_blank">RESUME</a>
+        </li>
+        <li class="active">
+          <a href="projects.html">COMPSCI PROJECTS</a>
+        </li>
+        <li >
+          <a href="ui.html">UI DESIGNS</a>
+        </li>
+        <li>
+          <a href="writings.html">WRITINGS</a>
+        </li>
+      </ul>
+    </div>
+    </nav>
+<div class="container-fluid">
+  <div class="row example-basic">
+	<div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2" id = 'col'>
+    <!-- <img src="images/prof.png" style="float: left;"> -->
+    <h5> Optometry Lab Web Application :: Ruby & HTML/CSS</h5>
+    <p> <i> Software Engineering @ UC Berkeley, Fall 2017</i> :: <a href="http://169.229.228.246/" target = "_blank"> Website</a> and <a href="icucpres.pdf" target = "_blank">slide deck</a></p>
+    <p> Using the Agile development cycle, built a user-friendly educational application for a UC Berkeley Optometry Professor and his students. </p>
+    <p> Won "Most Technically Challenging" award judged by Google and Facebook engineers. </p>
+    <h5> Secure File Sharing System :: Python </h5>
+    <p> <i> Computer Security @ UC Berkeley, Spring 2017</i></p>
+    <p> Implemented a scheme to securely store files on a malicious server & used merkle trees to efficiently store data on the server. </p>
+    <h5> Web Automation Scripts :: Python & Selenium Webdriver </h5>
+    <p> <i> Mozilla, Summer 2017</i> :: <a href="https://github.com/18epedersen/normandy-e2e-tests" target = "_blank">Github repo</a>, <a href="mozilla.pdf" target = "_blank">slide deck</a>, and <a href="https://air.mozilla.org/intern-presentations-round-2-thursday-august-1st/" target = "_blank">video</a> from 0:00 to 10 minutes</p>
+    <p> Developed web automation scripts to simulate user interaction on the newest release of the Normandy Control Shield UI.</p>
+    <h5> Rudrata Cycle Approximation Algorithm :: Python </h5>
+    <p> <i> Efficient Algorithms and Intractable Problems @ UC Berkeley, Fall 2016</i></p>
+    <p> Designed and implemented an approximation algorithms to find a cycle in a graph that touches all the vertices at most once, or returns a path that includes most of the vertices if no such path exists.</p>
+    <h5> Footprint Manager Web Application :: C# & ASP.NET</h5>
+    <p> <i> Microsoft, Summer 2016</i></p>
+    <p> Designed and developed the "Footprint Manager " website, allowing Microsoft Wifi partners to upload and validate their CSV files of hotspot data (a footprint). Led & coordinated Footprint manager design & development phases.</p>
+</div>
+</div>
+<div id = 'mastfoot-placeholder'>
+</div>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Back to Top</button>
+<script>
+  $(function(){
+  $("#mastfoot-placeholder").load("footer.html");
+  });
+</script>
+</body>
+</html>
