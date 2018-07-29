@@ -1,0 +1,93 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Acting Bud - Emily Pedersen</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css'>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <link rel="icon" href = "images/new-icon.png"/>
+</head>
+<body>
+    <nav class = "navbar">
+    <a><img src="images/new-logo.png" id="logo" /></a>
+    <div>
+      <ul class="nav">
+        <li>
+          <a href="home.html">ABOUT</a>
+        </li>
+        <li>
+          <a href="doc/resume.pdf" target="_blank">RESUME</a>
+        </li>
+        <li >
+          <a href="compsci-projects.html">COMPSCI PROJECTS</a>
+        </li>
+        <li class="active" >
+          <a href="product-designs.html">PRODUCT DESIGNS</a>
+        </li>
+        <li>
+          <a href="writings.html">WRITINGS</a>
+        </li>
+      </ul>
+    </div>
+    </nav>
+
+<div class="container-fluid">
+  <div class="row example-basic">
+	<div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2" id = 'col'>
+    <h2 style="text-align:center"> Acting Bud</h2>
+    <p> <b> GitHub Repo: </b> <a href="https://github.com/18epedersen/acting-bud" target="_blank"> https://github.com/18epedersen/acting-bud </a></p>
+    <p> <b> Course:</b> CS160 (User Interface & Design) @ UC Berkeley</p>
+    <p> <b> Date: </b> Spring 2017 </p>
+    <p> <b> Software: </b> Java, Android Studio, & Alexa Skill </p>
+    <p> Designed and implemented an Android and Alexa skill application, named "Acting Bud", aimed to help actors practice their lines for a play. </p>
+    <p> Below are the <a href="https://www.youtube.com/watch?v=Vu2JUPOI-2c" target="_blank"> demo </a> and some of the <a href="doc/abpres.pdf" target="_blank">slides</a> from our final presentation. </p>
+    <div class="resp-container">
+      <iframe class="resp-iframe" src="https://www.youtube.com/embed/Vu2JUPOI-2c?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+    <img src="images/ab/ab.png" class="actingBud"/>
+    <img src="images/ab/abdemographic.png" class="actingBud"/>
+    <img src="images/ab/abdesign.png" class="actingBud" />
+    <img src="images/ab/abdiff.png" class="actingBud"/>
+    <img src="images/ab/ablowfi.png" class="actingBud"/>
+    <img src="images/ab/abtesting.png" class="actingBud" />
+    <img src="images/ab/absol1.png" class="actingBud"/>
+    <img src="images/ab/absol2.png" class="actingBud"/>
+    <img src="images/ab/abaffordances.png" class="actingBud" />
+    <img src="images/ab/abwhy.png" class="actingBud" />
+    <img src="images/ab/abTeam.png" class="actingBud" />
+    <div class ="back">
+      <p style="float:left"> <a href="elevate.html"> &larr; PREVIOUS DESIGN </a></p>
+    </div>
+    <div class ="forward">
+      <p style="float:right"> <a href="ucsf.html"> NEXT DESIGN &rarr;</a></p>
+    </div>
+</div>
+</div>
+</div>
+<footer class='mastfoot'>
+<div align="middle" class="socialbtns">
+<ul>
+<li><a href="https://www.linkedin.com/in/epedersen1/" target="_blank" class="fa fa-linkedin"></a></li>
+<li><a href="https://github.com/18epedersen" target="_blank" class="fa fa-github"></a></li>
+<li><a href="mailto:18emilypedersen@gmail.com" class="fa fa-envelope"></a></li>
+</ul>
+<p class="copyright">&copy; Emily Pedersen 2018</a></p>
+</div>
+</footer>
+<script>
+window.addEventListener("resize", function(){
+  var w = window.innerWidth;
+  var logo = document.getElementById("logo");
+  if (w <= 500) {
+    logo.src = "images/new-icon.png";
+  } else {
+    logo.src = "images/new-logo.png"
+  }
+});
+</script> 
+</body>
+</html>

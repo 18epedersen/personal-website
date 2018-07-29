@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+  <title> Dorling Cartogram - Emily Pedersen</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href = "images/new-icon.png"/>
+  <link rel="stylesheet" href="css/style.css">  
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/footer.css">
+
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.0/d3-legend.min.js"></script>
+  <style>
+  svg {
+    margin-right:150px;
+    margin-left:150px;
+  }
+
+  title {
+    font-size:36px;
+  }
+  </style>
+
+</head>
+<body>
+<nav class = "navbar">
+    <a><img src="images/new-logo.png" id="logo" /></a>
+    <div>
+      <ul class="nav">
+        <li>
+          <a href="home.html">ABOUT</a>
+        </li>
+        <li>
+          <a href="doc/resume.pdf" target="_blank">RESUME</a>
+        </li>
+        <li class="active">
+          <a href="compsci-projects.html">COMPSCI PROJECTS</a>
+        </li>
+        <li >
+          <a href="product-designs.html">PRODUCT DESIGNS</a>
+        </li>
+        <li>
+          <a href="writings.html">WRITINGS</a>
+        </li>
+      </ul>
+    </div>
+    </nav>
+  <div class="container-fluid">
+  <div class="row example-basic">
+  <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2" id = 'col'>
+    <h2 style="text-align:center"> Dorling Cartogram</h2>
+    <p> <b> GitHub Repo: </b> <a href="https://github.com/18epedersen/dorling-cartogram" target="_blank"> https://github.com/18epedersen/dorling-cartogram</a></p>
+    <p> <b> Course:</b> Info 190-2 (Interactive Data Visualization) @ UC Berkeley</p>
+    <p> <b> Date: </b> Fall 2017 </p>
+    <p> <b> Software: </b> Javascript, D3 </p>
+    <p> Created a cartogram that toggles between two facets for each state: "total population" & "median income."</p>
+  
+</div>
+</div>
+</div>
+<input type="button" id="myBtn" value="Toggle to Median Income" onclick="update();"/>
+<script src="js/cartogram.js"></script>
+<div class="container-fluid">
+  <div class="row example-basic">
+    <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2" id = 'col'>
+      <div class ="back">
+        <p style="float:left"> <a href="car-scatterplot.html"> &larr; PREVIOUS PROJECT </a></p>
+      </div>
+      <div class ="forward">
+        <p style="float:right"> <a href="optometry.html"> NEXT PROJECT &rarr;</a></p>   
+      </div>
+    </div>
+  </div>
+</div>
+<footer class='mastfoot'>
+<div align="middle" class="socialbtns">
+<ul>
+<li><a href="https://www.linkedin.com/in/epedersen1/" target="_blank" class="fa fa-linkedin"></a></li>
+<li><a href="https://github.com/18epedersen" target="_blank" class="fa fa-github"></a></li>
+<li><a href="mailto:18emilypedersen@gmail.com" class="fa fa-envelope"></a></li>
+</ul>
+<p class="copyright">&copy; Emily Pedersen 2018</a></p>
+</div>
+</footer>
+<script>
+window.addEventListener("resize", function(){
+  var w = window.innerWidth;
+  var logo = document.getElementById("logo");
+  if (w <= 500) {
+    logo.src = "images/new-icon.png";
+  } else {
+    logo.src = "images/new-logo.png"
+  }
+});
+</script> 
+</body>
+</html>

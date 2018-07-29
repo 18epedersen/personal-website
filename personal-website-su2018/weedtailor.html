@@ -1,0 +1,92 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>WeedTailor - Emily Pedersen</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css'>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <link rel="icon" href = "images/new-icon.png"/>
+</head>
+<body>
+    <nav class = "navbar">
+    <a><img src="images/new-logo.png" id="logo" /></a>
+    <div>
+      <ul class="nav">
+        <li>
+          <a href="home.html">ABOUT</a>
+        </li>
+        <li>
+          <a href="doc/resume.pdf" target="_blank">RESUME</a>
+        </li>
+        <li >
+          <a href="compsci-projects.html">COMPSCI PROJECTS</a>
+        </li>
+        <li class="active" >
+          <a href="product-designs.html">PRODUCT DESIGNS</a>
+        </li>
+        <li>
+          <a href="writings.html">WRITINGS</a>
+        </li>
+      </ul>
+    </div>
+    </nav>
+
+<div class="container-fluid">
+  <div class="row example-basic">
+	<div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2" id = 'col'>
+    <h2 style="text-align:center"> WeedTailor </h2>
+    <p> <b> Course:</b> IEOR191 (Technology Entrepreneurship) @ UC Berkeley</p>
+    <p> <b> Date: </b> Spring 2017 </p>
+    <p> <b> Software: </b> Adobe Illustrator & Sketch</p>
+    <p> Conducted user and market research, and prototyped a web platform and recommendation engine that curates cannabis products best suited to users’ preferences based off their medical histories, mental health backgrounds, and previous purchasing decisions. </p>
+    <p> Below are the <a href="https://www.youtube.com/watch?v=BcTddsSPvrs&feature=youtu.be" target="_blank">demo</a> and some of the <a href="doc/weedtailor_pres.pdf" target="_blank">slides</a> from our final pitch to investors. We also wrote an <a href="doc/weedtailor_exec.pdf">executive summary</a>.</p>
+    <div class="resp-container">
+      <iframe class="resp-iframe" src="https://www.youtube.com/embed/BcTddsSPvrs?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+    <img src="images/wt/wt.png" class="wt" />
+    <img src="images/wt/wtProblem.png" class="actingBud"/>
+    <img src="images/wt/wtSaturated.png" class="wt" />
+    <img src="images/wt/wtMarket.png" class="wt"/>
+    <img src="images/wt/wtTarget.png" class="wt"/>
+    <img src="images/wt/wtComp.png" class="wt"/>
+    <img src="images/wt/wtSolution.png" class="wt" />
+    <img src="images/wt/wtBuz.png" class="wt" />
+    <img src="images/wt/wtg2m.png" class="wt" />
+    <img src="images/wt/wtTimeline.png" class="wt" />
+    <img src="images/wt/wtTeam.png" class="wt" />
+    <div class ="back">
+      <p style="float:left"> <a href="ucsf.html"> &larr; PREVIOUS DESIGN </a></p>
+    </div>
+    <div class ="forward">
+      <p style="float:right"> <a href="elevate.html"> NEXT DESIGN &rarr;</a></p>
+    </div>
+</div>
+</div>
+</div>
+<footer class='mastfoot'>
+<div align="middle" class="socialbtns">
+<ul>
+<li><a href="https://www.linkedin.com/in/epedersen1/" target="_blank" class="fa fa-linkedin"></a></li>
+<li><a href="https://github.com/18epedersen" target="_blank" class="fa fa-github"></a></li>
+<li><a href="mailto:18emilypedersen@gmail.com" class="fa fa-envelope"></a></li>
+</ul>
+<p class="copyright">&copy; Emily Pedersen 2018</a></p>
+</div>
+</footer>
+<script>
+window.addEventListener("resize", function(){
+  var w = window.innerWidth;
+  var logo = document.getElementById("logo");
+  if (w <= 500) {
+    logo.src = "images/new-icon.png";
+  } else {
+    logo.src = "images/new-logo.png"
+  }
+});
+</script>
+</body>
+</html>

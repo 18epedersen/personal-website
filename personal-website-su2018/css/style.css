@@ -1,0 +1,166 @@
+@charset "UTF-8";
+
+*{
+  border: 0;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html{
+  position: relative;
+  min-height:100%;
+  width: 100%;
+  display: block;
+  letter-spacing: 0.5px;
+  position: relative;
+}
+
+h2 {
+  font-family: "Avenir Next" !important;
+}
+
+body
+{
+  background: white;
+  font-family: "Avenir Next" !important;
+  color: #212121
+}
+
+/* nav bar */
+nav
+{
+  text-align:center;
+
+}
+
+@media (max-width: 62em) {
+  .navbar-nav {
+    padding-top: .425rem;
+    padding-left: 0.75rem;
+  }
+}
+
+ul.nav{
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+ul.nav li{
+    display:inline;
+}
+ul.nav a{
+    display:inline-block;
+    padding:10px;
+    color: #545454;
+}
+
+ul.nav-link {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 450;
+  line-height: 1em;
+  letter-spacing: 1px;
+  color: #545454;
+
+}
+
+ul.navbar-nav > li > a {
+  padding: 10px;
+}
+
+ul.nav > li > a:focus, .nav > li > a:hover {
+  /*color: #FF7F50;*/
+/*  color:#1F618D;
+*/  text-decoration: none;
+color: #1a0dab;
+}
+
+.nav li.active a {
+font-weight: bold;
+color:#1a0dab;
+}
+
+
+/* color for ahref and hovers */
+#col a {
+  font-weight: bold;
+  color: #1a0dab;
+}
+
+
+/* overridding margin-top for container fluid */
+.container-fluid {
+  margin-top: 40px;
+}
+
+#myBtn {
+  background-color:white; 
+  color: #1F618D;
+  border: 2px solid #666666;
+  padding: 15px; 
+  border-radius: 10px; 
+  bottom: 20px; 
+  position:relative;
+  left:1000px;
+  top: 300px;
+}
+
+ .actingBud, .op, .ucsf{
+  margin:10px;
+  border:1px solid black;
+ }
+
+ .elevate, .wt {
+  width: 965px;
+  height:auto;
+  margin:10px;
+  border:1px solid black;
+ }
+
+ ul.secure, ul.rudrata {
+  list-style-type: none;
+}
+
+.border {
+  border-bottom: 5px dotted #545454;
+  margin-bottom:10px;
+}
+
+h5 {
+  padding:20px;
+  text-align: left;
+}
+
+span {
+  float:right;
+}
+
+h3 {
+  padding-top:10px;
+}
+
+p {
+  font-size: 18px;
+}
+
+img.wt, img.actingBud, img.elevate, img.op, img.ucsf {
+    width: 100%;
+    height: auto;
+}
+
+.resp-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+
+.resp-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}

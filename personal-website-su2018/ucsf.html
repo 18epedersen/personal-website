@@ -1,0 +1,93 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>UCSF Delirium Dashboard - Emily Pedersen</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css'>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <link rel="icon" href = "images/new-icon.png"/>
+</head>
+<body>
+    <nav class = "navbar">
+    <a><img src="images/new-logo.png" id="logo" /></a>
+    <div>
+      <ul class="nav">
+        <li>
+          <a href="home.html">ABOUT</a>
+        </li>
+        <li>
+          <a href="doc/resume.pdf" target="_blank">RESUME</a>
+        </li>
+        <li >
+          <a href="compsci-projects.html">COMPSCI PROJECTS</a>
+        </li>
+        <li class="active" >
+          <a href="product-designs.html">PRODUCT DESIGNS</a>
+        </li>
+        <li>
+          <a href="writings.html">WRITINGS</a>
+        </li>
+      </ul>
+    </div>
+    </nav>
+
+<div class="container-fluid">
+  <div class="row example-basic">
+	<div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2" id = 'col'>
+    <h2 style="text-align:center"> UCSF Delirium Dashboard</h2>
+    <p> <b> GitHub Repo: </b> <a href="https://github.com/uadjet/DataViz4Delirium" target="_blank"> https://github.com/uadjet/DataViz4Delirium</a> </p>
+    <p> <b> Dashboard: </b> <a href="https://uadjet.github.io/DataViz4Delirium/" target="_blank"> https://uadjet.github.io/DataViz4Delirium/ </a></p>
+    <p> <b> Course:</b> Info 190-1 (Introduction to Data Visualization) @ UC Berkeley</p>
+    <p> <b> Date: </b> Fall 2018 </p>
+    <p> <b> Software: </b> Tableau, HTML, CSS, & JavaScript </p>
+    <p> Created a dashboard for UCSF directors to evaluate the performance of the Delirium Reduction Initiative by providing key metrics and graphs. Conducted usability testing to evaluate prototype. </p>
+    <p> Won "Best UI Design" award judged by UCSF directors and classmates. </p>
+    <p> Below are some <a href="doc/ucsf.pres" target="_blank"> slides </a> from our final presentation.</p>
+    <img src="images/ucsf/ucsfTitle.png" class="ucsf"/>
+    <img src="images/ucsf/ucsfGoals.png" class="ucsf"/>
+    <img src="images/ucsf/ucsfSol.png" class="ucsf" />
+    <img src="images/ucsf/ucsfPersona1.png" class="ucsf"/>
+    <img src="images/ucsf/ucsfPersona2.png" class="ucsf"/>
+    <img src="images/ucsf/ucsfPersona3.png" class="ucsf" />
+    <img src="images/ucsf/ucsf1.png" class="ucsf"/>
+    <img src="images/ucsf/ucsf2.png" class="ucsf"/>
+    <img src="images/ucsf/ucsf3.png" class="ucsf" />
+    <img src="images/ucsf/ucsf4.png" class="ucsf" />
+    <img src="images/ucsf/ucsf5.png" class="ucsf" />
+   <div class ="back">
+      <p style="float:left"> <a href="acting-bud.html"> &larr; PREVIOUS DESIGN </a></p>
+    </div>
+    <div class ="forward">
+      <p style="float:right"> <a href="weedtailor.html"> NEXT DESIGN &rarr;</a></p>
+    </div>
+</div>
+</div>
+</div>
+<footer class='mastfoot'>
+<div align="middle" class="socialbtns">
+<ul>
+<li><a href="https://www.linkedin.com/in/epedersen1/" target="_blank" class="fa fa-linkedin"></a></li>
+<li><a href="https://github.com/18epedersen" target="_blank" class="fa fa-github"></a></li>
+<li><a href="mailto:18emilypedersen@gmail.com" class="fa fa-envelope"></a></li>
+</ul>
+<p class="copyright">&copy; Emily Pedersen 2018</a></p>
+</div>
+</footer>
+<script>
+window.addEventListener("resize", function(){
+  var w = window.innerWidth;
+  var logo = document.getElementById("logo");
+  if (w <= 500) {
+    logo.src = "images/new-icon.png";
+  } else {
+    logo.src = "images/new-logo.png"
+  }
+});
+</script> 
+</body>
+</html>
